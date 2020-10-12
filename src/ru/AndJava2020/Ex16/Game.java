@@ -23,7 +23,7 @@ public class Game {
         }
         while(cards1.size()!=0 && cards2.size()!=0){
             if(motion==106){
-                System.out.println("botva");
+                System.out.println("Botva");
                 end();
                 return;
             }
@@ -55,8 +55,8 @@ public class Game {
 
     public static void end(){
         if(cards1.size()==0)
-            System.out.println("second "+motion);
+            System.out.println("Second "+motion);
         if(cards2.size()==0)
-            System.out.println("first "+motion);
+            System.out.println("First "+motion);
     }
 }
